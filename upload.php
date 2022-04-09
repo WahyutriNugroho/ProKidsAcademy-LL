@@ -10,7 +10,7 @@ include "koneksi.php";
 
     if ($upload_file != ""){
       // ekstensi yang diperbolehkan
-      $ekstensi_izin = array('png','jpg','jepg');
+      $ekstensi_izin = array('png','jpg','jepg','mp4', 'mkv','3gp', 'pdf');
       $pisah_ekstensi = explode('.', '$upload_file');
       $file_tmp = $_FILES['upload_file']['tmp_name'];
 
